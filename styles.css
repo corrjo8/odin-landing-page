@@ -26,3 +26,42 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.hero {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 25%;
+    align-items: center;
+    font-size: 18px;
+}
+
+#hero-image {
+    width: 300px;
+    margin-left: auto;
+    
+}
+
+.hero-left {
+    width: 400px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    
+    
+}
