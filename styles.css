@@ -1,3 +1,9 @@
+html {
+    background-image: linear-gradient(315deg, rgba(215,5,242,.2) 0%, rgba(2,6,89,.2) 100%), url(images/header-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 body {
     font-family: montserrat;
     margin: 0;
@@ -7,10 +13,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(55, 32, 66);
-    color: white;
+    background: linear-gradient(315deg, rgba(215,5,242,.5) 0%, rgba(2,6,89,.5) 100%);
+    background-color:rgb(55, 32, 66);
+    color: #05F2C7;
     font-size: 24px;
-    padding: 1% 15%;
+    padding: 0% 15% 0% 15%;
 }
 
 ul {
@@ -28,7 +35,7 @@ a {
 }
 
 .hero {
-    background-color: black;
+    
     color: white;
     display: flex;
     flex-direction: row;
@@ -39,17 +46,22 @@ a {
 
 #hero-image {
     width: 300px;
-    margin-left: auto;  
+    margin-left: auto;
+   filter: drop-shadow(5px 5px 40px rgba(1,1,1))
 }
 
 .hero-left {
     width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 h1 {
     margin: 0;
     font-size: 48px;
     font-weight: bold;
+    color: #05F2C7;
 }
 
 button {
@@ -57,8 +69,8 @@ button {
     height: 30px;
     font-size: 14px;
     font-weight: 550;
-    background-color: #3882f6;
-    color: white;
+    background-color: #05F2C7;
+    color: rgb(2,6,89);
     border-radius: 5px;
     border-style: none;   
 }
@@ -69,10 +81,12 @@ h2 {
     font-weight: bold;
     margin: 0%;
     padding-bottom: 2%;
+    color: #05F2C7;
 }
 
 .images {
-    background-color: midnightblue;
+    background: linear-gradient(315deg, rgba(215,5,242,.5) 0%, rgba(2,6,89,.5) 100%);
+    background-color:rgb(55, 32, 66);
     color: white;
     padding: 2%;
     padding-bottom: 5%;
@@ -82,18 +96,24 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    text-align: center;
 }
 
-img {
-    width: 150px;
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #05F2C7;
+    border-radius: 20px;
+    
 }
 
 .text {
     width: 150px;
+    margin: auto;
 }
 
 .quote-container {
-    background-color: rgb(184, 184, 184);
     padding: 5%;
     height: 100px; 
 }
@@ -101,11 +121,11 @@ img {
 #quote {
 
     font-size: 30px;
-    font-weight: lighter;
     text-align: center;
     margin: 0;
     margin-bottom: 0px;
     line-height: 100px;
+    color: #05F2C7;
 }
 
 #reference {
@@ -113,10 +133,11 @@ img {
     font-weight: 600;
     margin-top: -25px;
     margin-left: 1050px;
+    color: white;
 }
 
 .call-to-action {
-    background-color: #3882f6;
+    background-color: #05F2C7;
     margin: 100px auto;
     color: white;
     height: 120px;
@@ -127,22 +148,25 @@ img {
     border-radius: 10px;
 }   
 
-h3 {
+.call-to-action h3 {
     margin: 0;
+    color: rgb(2,6,89);
 }
 
 .call-to-action p {
     margin: 1px 0;
+    color: rgb(2,6,89);
 }
 
 .call-to-action button {
-    border: 2px solid white;;
+    border: 2px solid rgb(2,6,89);
 }
     
 footer {
     
-    background-color: rgb(55, 32, 66);
-    color: white;
+    background: linear-gradient(315deg, rgba(215,5,242,.5) 0%, rgba(2,6,89,.5) 100%);
+    background-color:rgb(55, 32, 66);
+    color: #05F2C7;
     padding: 1.5%;
     text-align: center;
 } 
