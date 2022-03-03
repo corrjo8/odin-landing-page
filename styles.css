@@ -34,6 +34,11 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #05F2C7;
+}
+
+
 .hero {
     
     color: white;
